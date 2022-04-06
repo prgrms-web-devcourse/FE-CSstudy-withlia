@@ -147,3 +147,5 @@ ex) https://localhost:5000/products/categories/
 - REST API는 json으로만 데이터를 주고받는다.
 - 부분 수정은 PATCH를 사용하고, 수정 시 보내지 않은 데이터들은 유지된다. 
 - URI가 같더라도 method에 따라 실제 수행하는 것이 다를 수 있다. 
+
+
