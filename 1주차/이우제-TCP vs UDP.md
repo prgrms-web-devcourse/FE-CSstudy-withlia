@@ -259,11 +259,11 @@ QUIC은 **TCP를 사용하지 않기 때문에** 통신을 시작할 때 번거�
 <details>
 <summary>Netflix는 TCP를 사용할까 UDP를 사용할까?</summary>
 <div markdown="1">
-   정답:  `TCP` 
+   정답:  TCP
     
-    이유: **TCP가 비디오 품질을 높이고 네트워크 정체 문제를 줄이는데 용이하기 떄문**
+    이유: TCP가 비디오 품질을 높이고 네트워크 정체 문제를 줄이는데 용이하기 떄문
     
-      **Netflix와 같은 온라인 스트리밍 서비스는 시청자가 시청하기 전에 미리 가져오고 버퍼     링하는 데 중점을 두는데, TCP는 flow control과 congestion control을 할 수 있기 때문** 
+    Netflix와 같은 온라인 스트리밍 서비스는 시청자가 시청하기 전에 미리 가져오고 버퍼링하는 데 중점을 두는데, TCP는 flow control과 congestion control을 할 수 있기 때문
     
     ✨버퍼링 (정보의 송수신을 원활하도록 하기 위해서 일시적으로 저장하여 작업의 처리 속도 차이를 흡수시키는 방법)
 </div>
