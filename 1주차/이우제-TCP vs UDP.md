@@ -8,7 +8,7 @@
 
 ## 1-1. 전송 계층
 
-> **`전송계층(Transport layer)`** 은 서로 다른 ****호스트(송·수신자)에서 ****실행되는 ****애플리케이션  **프로세스** 간의 **논리적 통신**을 제공합니다.
+> **`전송계층(Transport layer)`** 은 서로 다른 **호스트(송·수신자)에서** 실행되는 애플리케이션  **프로세스** 간의 **논리적 통신**을 제공합니다.
 > 
 <img
   src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4d619c01-a6b7-402c-bfc3-4ec648732327/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220406%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220406T131315Z&X-Amz-Expires=86400&X-Amz-Signature=41e8481865ef1c6d0127b280f8badc81b255fd3614e680b5b5a3e58b799132ad&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject"
@@ -76,7 +76,7 @@
 
 ✨ **흐름 제어(flow control), 혼잡 제어(congestion control)**을 통해 안전하게 데이터가 전달될 수 있도록 지원
 
-### 이런 전송 계층의 프로토콜 중 가장 잘 알려진 것이 `**TCP**`와 `**UDP`입니다.**
+### 이런 전송 계층의 프로토콜 중 가장 잘 알려진 것이 **TCP**와 **UDP입니다.**
 
 이제부터 TCP와 UDP의 특징을 중점으로 알아보겠습니다.
 
@@ -132,11 +132,11 @@ TCP의 특징은 **친절하다**는 것입니다. **연결이 되고나서 데�
   height="400"
 />
 
-이 과정을 통해 ****클라이언트와 서버는 데이터를 주고 받을 준비가 되었다는 것을 서로에게 알려주고 이후 데이터 전송에 필요한 시퀀스 번호를 알 수 있게 됩니다.
+이 과정을 통해 클라이언트와 서버는 데이터를 주고 받을 준비가 되었다는 것을 서로에게 알려주고 이후 데이터 전송에 필요한 시퀀스 번호를 알 수 있게 됩니다.
 
 간단히 말하면 **친절하게 연결을 확인하는 과정이 3-way handshake** 것입니다.
 
-이처럼 **연결 해제 과정**은 **4-way handshake로** 이루어집니다. ****
+이처럼 **연결 해제 과정**은 **4-way handshake로** 이루어집니다.
 
 그만큼 TCP는 **신뢰성을 유지하기 위해** 이러한 **복잡한 통신 과정**을 거치기 때문에 헤더가 상당히 무겁습니다.
 
@@ -170,7 +170,7 @@ TCP는 데이터를 교환함과 동시에 헤더에 기록된 정보를 이용�
 
 ## 2-4. TCP의 혼잡제어
 
-**혼잡제어**는 ****특정 순간에 너무 많은 네트워크 요청이 몰리거나, 여러 사용자가 한 네트워크를 동시에 쓰는 경우 **혼잡이 발생하는데 이를** **방지**하거나 **제거**하는 기법입니다.
+**혼잡제어**는 특정 순간에 너무 많은 네트워크 요청이 몰리거나, 여러 사용자가 한 네트워크를 동시에 쓰는 경우 **혼잡이 발생하는데 이를** **방지**하거나 **제거**하는 기법입니다.
 
 혼잡제어 기법에는 **AIMD (Additive Increse/Multicative Decrease), Slow Start**가 있습니다.
 
@@ -194,7 +194,7 @@ TCP는 데이터를 교환함과 동시에 헤더에 기록된 정보를 이용�
 
 ![udp-header](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/82db976d-d065-432e-9508-a53f54a27f2b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220406%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220406T132146Z&X-Amz-Expires=86400&X-Amz-Signature=3c7775db05ad4777f4712da773f1d6693ca3c68c30be73b4d68d2057961c9f37&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
-     UDP의 헤더는 TCP와 달리 **간단한 구조**로 전송을 위한 포트번호와 패킷의 길이, 그리고
+  UDP의 헤더는 TCP와 달리 **간단한 구조**로 전송을 위한 포트번호와 패킷의 길이, 그리고
 
 오류검출을 위해서 사용자가 선택적으로 사용할 수 있는 체크섬정도로만 구성되어있습니다.
 
@@ -256,15 +256,18 @@ QUIC은 **TCP를 사용하지 않기 때문에** 통신을 시작할 때 번거�
 
 ### Quiz
 
-- Netflix는 **TCP를** 사용할까 **UDP**를 사용할까?
-    
-    정답:  `TCP` 
+<details>
+<summary>Netflix는 TCP를 사용할까 UDP를 사용할까?</summary>
+<div markdown="1">
+   정답:  `TCP` 
     
     이유: **TCP가 비디오 품질을 높이고 네트워크 정체 문제를 줄이는데 용이하기 떄문**
     
       **Netflix와 같은 온라인 스트리밍 서비스는 시청자가 시청하기 전에 미리 가져오고 버퍼     링하는 데 중점을 두는데, TCP는 flow control과 congestion control을 할 수 있기 때문** 
     
     ✨버퍼링 (정보의 송수신을 원활하도록 하기 위해서 일시적으로 저장하여 작업의 처리 속도 차이를 흡수시키는 방법)
+</div>
+</details>
     
 
 ---
