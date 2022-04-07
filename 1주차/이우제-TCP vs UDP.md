@@ -10,8 +10,11 @@
 
 > **`전송계층(Transport layer)`** 은 서로 다른 ****호스트(송·수신자)에서 ****실행되는 ****애플리케이션  **프로세스** 간의 **논리적 통신**을 제공합니다.
 > 
-
-![?](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4d619c01-a6b7-402c-bfc3-4ec648732327/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220406%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220406T131315Z&X-Amz-Expires=86400&X-Amz-Signature=41e8481865ef1c6d0127b280f8badc81b255fd3614e680b5b5a3e58b799132ad&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+<img
+  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4d619c01-a6b7-402c-bfc3-4ec648732327/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220406%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220406T131315Z&X-Amz-Expires=86400&X-Amz-Signature=41e8481865ef1c6d0127b280f8badc81b255fd3614e680b5b5a3e58b799132ad&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject"
+  width="300"
+  height="300"
+/>
 
 **프로세스? 논리적 연결?**  
 
@@ -50,9 +53,14 @@
 
 **네트워크 계층에서는 IP Adress를 통해** 저의 컴퓨터에서 리아님 컴퓨터로 메세지를 보낼 수 있습니다. 
 
-그렇다면 리아님 컴퓨터에서는 **어떤 프로그램(프로세스**)에 해당 메세지를 전송해야하는가?
+그렇다면 메세지가 도착한 리아님 컴퓨터에서는 **어떤 프로그램(프로세스**)에 해당 메세지를 전송해야하는가?
 
-![portNum](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/05cfa977-c9f7-4d76-981a-ed7d48d49aa1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220406%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220406T131721Z&X-Amz-Expires=86400&X-Amz-Signature=83cc8598f3a60dee8f3f387ebfdb35f7b09b1f1bbb61699ae860b49dd352f3b4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+<img
+  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/05cfa977-c9f7-4d76-981a-ed7d48d49aa1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220406%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220406T131721Z&X-Amz-Expires=86400&X-Amz-Signature=83cc8598f3a60dee8f3f387ebfdb35f7b09b1f1bbb61699ae860b49dd352f3b4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject"
+  width="500"
+  height="350"
+/>
+
 
 이렇게 **올바른 프로세스에**  메세지를 전달하기 위해 **식별자인 포트 번호(Port Number)가 필요합니다.**
 
@@ -118,7 +126,11 @@ TCP의 특징은 **친절하다**는 것입니다. **연결이 되고나서 데�
 2. 서버가 클라이언트 요청을 받아들이는 패킷을 보내고
 3. 클라이언트는 이를 최종적으로 수락하는 패킷을 보낸다.
 
-![3-way-handshake](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8eca221a-3b20-4e99-9b68-ca79b98d4cf0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220406%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220406T131822Z&X-Amz-Expires=86400&X-Amz-Signature=6f2e8adf8ae219379aed847544117557e942abaad5a3ef18b547f889c15225ff&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+<img
+  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8eca221a-3b20-4e99-9b68-ca79b98d4cf0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220406%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220406T131822Z&X-Amz-Expires=86400&X-Amz-Signature=6f2e8adf8ae219379aed847544117557e942abaad5a3ef18b547f889c15225ff&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject"
+  width="500"
+  height="400"
+/>
 
 이 과정을 통해 ****클라이언트와 서버는 데이터를 주고 받을 준비가 되었다는 것을 서로에게 알려주고 이후 데이터 전송에 필요한 시퀀스 번호를 알 수 있게 됩니다.
 
@@ -210,7 +222,11 @@ UDP는 **제대로 연결을 하던말던 데이터를 일단 던진다**고 생
 
 ## 3-2. HTTP/3가 UDP를 선택한 이유
 
-![quic](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/16c31740-a201-4b8f-a497-584b83242871/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220406%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220406T132214Z&X-Amz-Expires=86400&X-Amz-Signature=0cdcb5ef27bb608c6b7a75c2fb7b494388f95b9e5ad7f9a8fa84021038a6e98e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+<img
+  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/16c31740-a201-4b8f-a497-584b83242871/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220406%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220406T132214Z&X-Amz-Expires=86400&X-Amz-Signature=0cdcb5ef27bb608c6b7a75c2fb7b494388f95b9e5ad7f9a8fa84021038a6e98e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject"
+  width="200"
+  height="200"
+/>
 
 **HTTP3**는 HTTP의 세 번째 메이저 버전으로 기존의 HTTP/1, HTTP/2와는 다르게 **UDP 기반의 프로토콜인** **QUIC(Quick UDP Internet Connection)를 사용하여 통신한다고 합니다.**
 
