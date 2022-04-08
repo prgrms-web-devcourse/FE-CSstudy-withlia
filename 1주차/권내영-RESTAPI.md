@@ -83,9 +83,13 @@ REST에서 하나의 자원은 JSON, XML 등 여러 형태로 나타낼 수 있�
 #### CRUD동작
 
 Create : 데이터 생성(POST)
+
 Read : 데이터 조회(GET)
+
 Update : 데이터 전체 수정(PUT) /부분 수정(PATCH)
+
 데이터 전체 수정 시 보내지 않은 다른 정보들은 삭제 / 부분 수정 시 보내지 않은 다른 정보들은 유지
+
 Delete : 데이터 삭제(DELETE)
 
 
