@@ -51,9 +51,9 @@
 | URL | 같은 출처  |  설명 |
 |:-- | :--: | :-- |
 | https://github.com/other?tab=other | O | 경로만 다르지 Protocol,Host, 그리고 생략된 Port가 일치 |
-| https://github.com:8080 | ? | Port가 달라서 익스플로러 제외 다르다고 인식 |
 | http://github.com | X | Protocol이 다름 |
 | http://github.co.kr | X |  Host가 다름 |
+| https://github.com:8080 | ? | Port가 달라서 익스플로러 제외 다르다고 인식 |
 
 
 <br/>
