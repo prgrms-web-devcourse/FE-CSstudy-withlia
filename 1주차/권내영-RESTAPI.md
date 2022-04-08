@@ -39,20 +39,20 @@ rest의 구성은 다음과 같다.
 행위(Verb)<br>
 표현(Representations)
 
-자원 (Resource)
-모든 자원에 고유한 ID가 존재하고, 이 자원은 Server에 존재한다.
-자원을 구별하는 ID는 HTTP URI이다.
+자원 (Resource)<br>
+모든 자원에 고유한 ID가 존재하고, 이 자원은 Server에 존재한다.<br>
+자원을 구별하는 ID는 HTTP URI이다.<br>
 
-행위 (Verb) - Http Method
-HTTP 프로토콜의 Method를 사용한다.
-HTTP 프로토콜은 GET, POST, PUT, DELETE와 같은 메서드를 제공한다.
+행위 (Verb) - Http Method<br>
+HTTP 프로토콜의 Method를 사용한다.<br>
+HTTP 프로토콜은 GET, POST, PUT, DELETE와 같은 메서드를 제공한다.<br>
 
-표현 (Representaion of Resource)
-Client가 자원의 상태 (정보)에 대한 조작을 요청하면 Server는 이에 적절한 응답을 보낸다.
-REST에서 하나의 자원은 JSON, XML 등 여러 형태로 나타낼 수 있다.
+표현 (Representaion of Resource)<br>
+Client가 자원의 상태 (정보)에 대한 조작을 요청하면 Server는 이에 적절한 응답을 보낸다.<br>
+REST에서 하나의 자원은 JSON, XML 등 여러 형태로 나타낼 수 있다.<br>
 
-요약하자면, HTTP URI(Uniform Resource Identifier)를 통해 자원(Resource)을 명시하고, HTTP Method(POST, GET, PUT, DELETE)를 통해 
-해당 자원에 대한 CRUD를 한다.  
+요약하자면, HTTP URI(Uniform Resource Identifier)를 통해 자원(Resource)을 명시하고, HTTP Method(POST, GET, PUT, DELETE)를 통해 <br>
+해당 자원에 대한 CRUD를 한다.  <br>
 
 #### CRUD동작
 
