@@ -87,8 +87,6 @@ Update : 데이터 전체 수정(PUT) /부분 수정(PATCH)
 Delete : 데이터 삭제(DELETE)
 
 ### REST API 설계 규칙
-(프론트엔드에서는 읽을 줄만 알면 될거 같아요우)
-
 REST API 설계 규칙
 - 슬래시(/)는 계층 관계를 나타내는데 사용한다.
 ex) https://localhost:5000/products/categories
