@@ -124,9 +124,9 @@ ex) https://localhost:5000/products/categories/
 > GET /v2/local/search/address.${FORMAT} HTTP/1.1
 
 실제 요청
->GET "https://dapi.kakao.com/v2/local/search/address.json" \<br>
-  -H "Authorization: KakaoAK ${REST_API_KEY}" \<br>
-  --data-urlencode "query=전북 삼성동 100" <br>
+>GET "https://dapi.kakao.com/v2/local/search/address.json" \  
+  -H "Authorization: KakaoAK ${REST_API_KEY}" \
+  --data-urlencode "query=전북 삼성동 100" 
 
 응답
 > HTTP/1.1 200 OK
