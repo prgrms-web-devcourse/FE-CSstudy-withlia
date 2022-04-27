@@ -11,7 +11,7 @@
 > **`전송계층(Transport layer)`** 은 서로 다른 **호스트(송·수신자)에서** 실행되는 애플리케이션  **프로세스** 간의 **논리적 통신**을 제공합니다.
 > 
 <img
-  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4d619c01-a6b7-402c-bfc3-4ec648732327/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220406%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220406T131315Z&X-Amz-Expires=86400&X-Amz-Signature=41e8481865ef1c6d0127b280f8badc81b255fd3614e680b5b5a3e58b799132ad&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject"
+  src="./assets/questionMark.png"
   width="300"
   height="300"
 />
@@ -56,7 +56,7 @@
 그렇다면 메세지가 도착한 리아님 컴퓨터에서는 **어떤 프로그램(프로세스**)에 해당 메세지를 전송해야하는가?
 
 <img
-  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/05cfa977-c9f7-4d76-981a-ed7d48d49aa1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220406%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220406T131721Z&X-Amz-Expires=86400&X-Amz-Signature=83cc8598f3a60dee8f3f387ebfdb35f7b09b1f1bbb61699ae860b49dd352f3b4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject"
+  src="./assets/whichProcess.png"
   width="500"
   height="350"
 />
@@ -86,7 +86,7 @@
 
 **TCP는 전송 제어 프로토콜** 입니다.
 
-![TCP-Header](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0dae2b93-226f-4bc5-82a9-a11f288fd551/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220406%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220406T131749Z&X-Amz-Expires=86400&X-Amz-Signature=4d995eb14546ad1892cc3714f081e15b071dfb2609d6c2f4b0f5233277167ad9&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![TCP-Header](./assets/TCPHeader.png)
 
 4계층의 전송의 기본 단위인 세그먼트의 일부분 중 **헤더**라는 것이 있습니다.
 
@@ -127,7 +127,7 @@ TCP의 특징은 **친절하다**는 것입니다. **연결이 되고나서 데�
 3. 클라이언트는 이를 최종적으로 수락하는 패킷을 보낸다.
 
 <img
-  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8eca221a-3b20-4e99-9b68-ca79b98d4cf0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220406%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220406T131822Z&X-Amz-Expires=86400&X-Amz-Signature=6f2e8adf8ae219379aed847544117557e942abaad5a3ef18b547f889c15225ff&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject"
+  src="./assets/3-way-handshake.png"
   width="500"
   height="400"
 />
@@ -150,7 +150,7 @@ TCP는 데이터를 교환함과 동시에 헤더에 기록된 정보를 이용�
 
 흐름제어 기법에는 **Stop and Wait 프로토콜, Sliding Window** 기법이 있다.
 
-![stop-and-wait](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/babce04c-cdde-48ba-9c36-578f5a0a2fe0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220406%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220406T131949Z&X-Amz-Expires=86400&X-Amz-Signature=4bd0e229f7973d9bb5a01f33fe39635e6fa0a6bf4e79314cbea621bb8c53897a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![stop-and-wait](./assets/stop-and-wait-protocol.png)
 
  **Stop and Wait 프로토콜**은 전송한 패킷에 대해 확인 응답(ACK)을 받으면 다음 패킷을 전송하는 제어 기법입니다. 
 
@@ -174,11 +174,11 @@ TCP는 데이터를 교환함과 동시에 헤더에 기록된 정보를 이용�
 
 혼잡제어 기법에는 **AIMD (Additive Increse/Multicative Decrease), Slow Start**가 있습니다.
 
-![AIMD](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3dfd9164-29d8-4c36-86d4-f4870176dea5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220406%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220406T132021Z&X-Amz-Expires=86400&X-Amz-Signature=4b273a82f8c4a793b1154dc7f4216a1495fc3a5c5dcf3ded2fed7afc95d0a26e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![AIMD](./assets/AIMD.png)
 
 **AIMD**는 전송률을 **1씩 증가시키다가** 만약, **전송에 실패하면 전송율을 반으로 줄여 관리**하는 기법입니다.
 
-![Slow-start](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9ea3fd0a-9a93-4ec1-ba11-2b3e6ef42982/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220406%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220406T132053Z&X-Amz-Expires=86400&X-Amz-Signature=27511628c300e376f737641d0f2843f9c221d624895a24e0c1909cd8387f5065&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Slow-start](./assets/slow_start.png)
 
 **Slow Start는 전송률을 exponential하게(1,2,4,8 ...) 증가**시키다가 **혼잡이 감지되면 전송률 크기를 1로 줄이는 기법**입니다.
 
@@ -188,11 +188,11 @@ TCP는 데이터를 교환함과 동시에 헤더에 기록된 정보를 이용�
 
 # 3. UDP(User Datagram Protocol)
 
-![starcraft](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a1381a35-c7e3-420e-921b-d4c08a317fd7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220406%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220406T132122Z&X-Amz-Expires=86400&X-Amz-Signature=3fed80aa4c86530ff74102ddea3155bb166a7d5f829a4ad10cdc214705f4f2db&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![starcraft](./assets/starcraft.png)
 
 **UDP**는 사용자 데이터그램 프로토콜로 스타크래프트 게임을 해보셨던 분이라면 친숙한 이름입니다.
 
-![udp-header](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/82db976d-d065-432e-9508-a53f54a27f2b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220406%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220406T132146Z&X-Amz-Expires=86400&X-Amz-Signature=3c7775db05ad4777f4712da773f1d6693ca3c68c30be73b4d68d2057961c9f37&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![udp-header](./assets/UDPHeader.png)
 
   UDP의 헤더는 TCP와 달리 **간단한 구조**로 전송을 위한 포트번호와 패킷의 길이, 그리고
 
@@ -223,7 +223,7 @@ UDP는 **제대로 연결을 하던말던 데이터를 일단 던진다**고 생
 ## 3-2. HTTP/3가 UDP를 선택한 이유
 
 <img
-  src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/16c31740-a201-4b8f-a497-584b83242871/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220406%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220406T132214Z&X-Amz-Expires=86400&X-Amz-Signature=0cdcb5ef27bb608c6b7a75c2fb7b494388f95b9e5ad7f9a8fa84021038a6e98e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject"
+  src="./assets/QUIC.png"
   width="200"
   height="200"
 />
@@ -246,7 +246,7 @@ QUIC은 **TCP를 사용하지 않기 때문에** 통신을 시작할 때 번거�
 
 # 4. 요약
 
-![tcp_udp](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cad9c7cc-7a4d-4dbf-9ddd-62b1c406d648/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220406%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220406T132234Z&X-Amz-Expires=86400&X-Amz-Signature=90240a3b8ae654c7c5222be50a37dfe8d9e78e5eaf377d6cb207460811cf840e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![tcp_udp](./assets/summary.png)
 
   이 사진은 TCP와 UDP의 특성을 잘 보여주는 그림이 인상적이어서 가져왔습니다.
 
