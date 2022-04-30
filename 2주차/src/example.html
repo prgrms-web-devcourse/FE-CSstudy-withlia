@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var v = -1;
+        const x = 1; // 전역 스코프
+        function one(z){ // 함수 스코프
+            var a = -2;
+            const y = 2;
+                console.log(x + y + z);
+        }
+        one(1);
+    </script>
+</body>
+</html>
