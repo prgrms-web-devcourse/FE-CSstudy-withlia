@@ -131,7 +131,7 @@
 
 - **TLS(Transport Layer Security)에 의한 암호화 통신을 지원** → 강력한 인증 절차가 생기게 되었다.
 
-![Untitled](HTTP%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%A7%E1%86%A8%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AA%20%E1%84%8B%E1%85%AD%E1%84%89%E1%85%A9%20db501c2324c74f8a8981561d618589f5/Untitled.png)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/991c47c3-4455-4fa9-85cf-ff357c0dbc96/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220430T144518Z&X-Amz-Expires=86400&X-Amz-Signature=ff4527ff6a3c6bb3eb9bb9b41070609d5a2d843c3d94ca554a249d46dbe935a6&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 - **통신 고속화**
     - **Keep-Alive**가 **기본적으로 유효 (Persistent connection)**
@@ -139,7 +139,7 @@
     - HTTP/1.0에서의 통신은 10개의 API 통신 → 10번의 반복된 연결/ 해제 과정
     - HTTP/1.1:  일정시간 클라이언트 서버와 API서버간의 연결 정보를 **기억해** 반복적으로 일어나는 통신에 연결의 맺고 끊음을 줄인다.
         
-        ![Untitled](HTTP%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%A7%E1%86%A8%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AA%20%E1%84%8B%E1%85%AD%E1%84%89%E1%85%A9%20db501c2324c74f8a8981561d618589f5/Untitled%201.png)
+        ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0628ca7b-f96d-4c57-94f7-33c54b68bd78/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220430T144629Z&X-Amz-Expires=86400&X-Amz-Signature=fafea399a8d0372243d46ee91595e86d8c1da304ab7b6bc640a8f5f290c9fef6&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
         
 
 ---
@@ -173,7 +173,7 @@
 
 ### 파이프라이닝(Pipelining)
 
-![Untitled](HTTP%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%A7%E1%86%A8%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AA%20%E1%84%8B%E1%85%AD%E1%84%89%E1%85%A9%20db501c2324c74f8a8981561d618589f5/Untitled%202.png)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cb55418f-6a73-44bb-bbe8-73759fa58a48/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220430T144645Z&X-Amz-Expires=86400&X-Amz-Signature=ab844fe622008fcb1642e9ebaa0e64f051ce7b16684a8ad0dc31388ec65a2b2f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 > 파이프라이닝은 **최초의 요청이 완료되기 전에 다음 요청을 보내는** 기술. 다음 요청까지의 대기 시간을 없앰으로써, 네트워크 가동률을 높이고 성능을 향상시킨다.
 > 
@@ -223,7 +223,7 @@
 > **HTTP/3**에서는 전송 계층 부분에 TCP 대신 **QUIC을 사용**한다.
 > 
 
-![Untitled](HTTP%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%A7%E1%86%A8%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AA%20%E1%84%8B%E1%85%AD%E1%84%89%E1%85%A9%20db501c2324c74f8a8981561d618589f5/Untitled%203.png)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/94e1e218-edbc-4e2d-8b39-bd1446a8bcf5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220430T144707Z&X-Amz-Expires=86400&X-Amz-Signature=dc7b2a8f64a18c4d40c8f968f933e9a7a0c8b2e5e7339363612fdbc6d246d28a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 - TCP는 너무 복잡하고 무거워 뜯어고치기에는 어렵다.
 - 그래서 **커스터마이징이 용이**하다는 장점을 가진 **UDP를 사용**
@@ -250,9 +250,9 @@
 - 저번 발표에서 바로잡을 점
 - 넷플릭스는 TCP를 사용할까? UDP를 사용할까?
 
-![Untitled](HTTP%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%A7%E1%86%A8%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AA%20%E1%84%8B%E1%85%AD%E1%84%89%E1%85%A9%20db501c2324c74f8a8981561d618589f5/Untitled%205.png)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/781d4fe5-c3dc-4e45-a5bc-012073ba9fbb/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220430T144738Z&X-Amz-Expires=86400&X-Amz-Signature=e5d70b0f7ce5f4906aedb27738ce4263a0428d97d7aeaa48f826c0009e58ddb2&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
-![Untitled](HTTP%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%A7%E1%86%A8%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AA%20%E1%84%8B%E1%85%AD%E1%84%89%E1%85%A9%20db501c2324c74f8a8981561d618589f5/Untitled%206.png)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/66a81ed1-b89d-4d4a-ac9b-e924742d5597/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220430T144751Z&X-Amz-Expires=86400&X-Amz-Signature=8d704f8690ec388594585f07955af09cdaaf54f1f38c608efea952faefa66e45&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 ---
 
