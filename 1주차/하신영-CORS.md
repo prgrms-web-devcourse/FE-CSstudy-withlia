@@ -1,6 +1,8 @@
 # 🔍목차
 
+
 [1.출처란?](#출처란?)
+
 
 [2.SOP ](#sop)
 
@@ -9,6 +11,7 @@
 [4.CORS 시나리오](#cors-시나리오)
 
 [5.만약 CORS를 사용하지 않는다면?](#만약-cors를-사용하지-않는다면?)
+
 
 [6.CORS 에러 해결 방법](#cors-에러-해결-방법)
 
@@ -54,6 +57,7 @@
 | https://github.com:8080 | ? | Port가 달라서 익스플로러 제외 다르다고 인식 |
 | http://github.com | X | Protocol이 다름 |
 | http://github.co.kr | X |  Host가 다름 |
+
 
 
 <br/>
