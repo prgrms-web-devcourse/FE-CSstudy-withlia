@@ -88,7 +88,7 @@ outer();
 
 환경 레코드에 대한 내용을 먼저 살펴보도록 하겠습니다.
 
-<center><img src="./img/er1.png"></center>
+<center><img src="./img/er1.PNG"></center>
 
 환경 레코드는 위와 같은 상속 구조를 가지고, 위의 함수 코드에서는 이 중 `Function Environment Record`으로 구성되어 있습니다.
 
