@@ -100,7 +100,7 @@
 
 따라서 DNS 서버 종류 또한 <u>계층화되어, 변환 작업을 단계적으로 처리</u>합니다.
 
-![도메인 네임 스페이스](https://i0.wp.com/hanamon.kr/wp-content/uploads/2022/04/%E1%84%83%E1%85%A9%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB-%E1%84%82%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%B7-%E1%84%89%E1%85%B3%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3-Domain-Name-Space.png?resize=768%2C697&ssl=1)
+![image](https://user-images.githubusercontent.com/72294509/168209327-a3ee9788-87df-497d-be86-c9880a652dc5.png)
 
 ![도메인 종류](https://i0.wp.com/hanamon.kr/wp-content/uploads/2022/04/DNS-%E1%84%83%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A5%E1%86%BC.png?resize=2048%2C920&ssl=1)
 
