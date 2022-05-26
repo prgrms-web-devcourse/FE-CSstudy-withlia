@@ -241,7 +241,7 @@
     - TCP의 경우 소스의 IP 주소와 포트, 연결 대상의 IP 주소와 포트로 연결을 식별해 IP가 바뀌면 연결 끊긴다.
 - QUIC은 이미 Chrome에 포함돼있다. **w3tech**에서 발표한 내용에 따르면, **QUIC**은 2022년 4월 기준 모든 웹사이트 중 **24.6%가 사용**하고 있다.
 
-![Untitled](HTTP%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%A7%E1%86%A8%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AA%20%E1%84%8B%E1%85%AD%E1%84%89%E1%85%A9%20db501c2324c74f8a8981561d618589f5/Untitled%204.png)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4a936264-4cb4-42e9-9dfb-0e59e0bf5d1b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220502%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220502T095544Z&X-Amz-Expires=86400&X-Amz-Signature=1ff2114c2d92c347c9234cd775e4936daa375a107b20dc5ccd1c3fe6279708fd&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 ---
 
