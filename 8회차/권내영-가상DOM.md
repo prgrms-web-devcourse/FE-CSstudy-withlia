@@ -67,8 +67,9 @@ React에서는 항상 2개의 가상 DOM을 가지고 있다.
 1. **State가 변경되면, 변경사항이 담긴 가상 DOM을 생성한다.**
 2. **업데이트 되기 전 - 업데이트 후의 가상 DOM을 비교한다. (Diffing Algorithm)**
 
+![KakaoTalk_20220925_120258101](https://user-images.githubusercontent.com/75849590/192678694-ec44d334-4190-4821-afbf-b8c646629865.jpg)
 
-    ![KakaoTalk_20220925_120258101.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/051632b1-a48e-4654-a51b-294ff4ec6cea/KakaoTalk_20220925_120258101.jpg)
+
 
 3. **바뀐 부분들만 실제 DOM에 적용시킨다. (Reconciliation)**
 
@@ -78,11 +79,13 @@ React에서는 항상 2개의 가상 DOM을 가지고 있다.
 
    예를 들어 List의 요소가 한번에 여러개 바뀔 때, 그것을 하나 하나 반복해서 업데이트 하는 것이 아니라 한꺼번에 바뀐 모든 부분을 실제 DOM에 집단 업데이트하는 것이다.
 
-   ![KakaoTalk_20220925_120309956.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b4dfc453-9682-41c6-9348-3c0832f55e87/KakaoTalk_20220925_120309956.jpg)
+![KakaoTalk_20220925_120309956](https://user-images.githubusercontent.com/75849590/192678708-361bc120-6df0-4553-8fe5-8e0a46e33fa0.jpg)
+
 
 ### virtual DOM 과 실제 DOM의 흐름
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/014d3f25-825c-4863-bd14-2aa2f9abdcbb/Untitled.png)
+![img](https://user-images.githubusercontent.com/75849590/192679695-3d0cbb0c-7a7e-42c2-88a9-cb1b6a591615.png)
+
 
 ### Diffing Algorithm
 
@@ -169,7 +172,8 @@ DOM 노드의 자식들을 반복적으로 처리할 때 기본적으로 두 DOM
 
 이때 이러한 문제를 해결하기 위해 반복적인 요소에서는 key 속성을 사용하기를 권장하고 있다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/66815c50-5554-47c7-ba94-0d49dcff9573/Untitled.png)
+![image (8)](https://user-images.githubusercontent.com/75849590/192679277-b0ae150e-f4f1-42de-91cb-cb5714be8235.png)
+React에서 key prop을 지정하지 않았을 때 나오는 warning이다
 
 React key속성을 이용해 가상 DOM을 비교한다.
 
