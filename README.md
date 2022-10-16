@@ -34,6 +34,30 @@
 - 다른 스터디 멤버들이 발표한 자료를 보며 다른 개념들도 학습합니다.
 - 추후 스터디 멤버들이 모여 질의 응답 및 피드백 시간을 갖습니다.
 
+# 11회차
+
+|  이름  | 주제                                                                                                                                                                     |
+| :----: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 나호석 | [DB INDEX](https://github.com/prgrms-web-devcourse/FE-CSstudy-withlia/blob/main/11%ED%9A%8C%EC%B0%A8/%EB%82%98%ED%98%B8%EC%84%9D-DB-INDEX.md)                            |
+| 하신영 | [리액트 ref](https://github.com/prgrms-web-devcourse/FE-CSstudy-withlia/blob/main/11%ED%9A%8C%EC%B0%A8/%ED%95%98%EC%8B%A0%EC%98%81-%EB%A6%AC%EC%95%A1%ED%8A%B8%20ref.md) |
+
+# 10회차
+
+|  이름  | 주제                                                                                                                                                                                                   |
+| :----: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 나호석 | [캐시 메모리](https://github.com/prgrms-web-devcourse/FE-CSstudy-withlia/blob/main/10%ED%9A%8C%EC%B0%A8/%EB%82%98%ED%98%B8%EC%84%9D-%EC%BA%90%EC%8B%9C-%EB%A9%94%EB%AA%A8%EB%A6%AC.md)                 |
+| 박유현 | [JWT](https://github.com/prgrms-web-devcourse/FE-CSstudy-withlia/blob/main/10%ED%9A%8C%EC%B0%A8/%EB%B0%95%EC%9C%A0%ED%98%84-JWT.md)                                                                    |
+| 하신영 | [가비지 컬렉팅](https://github.com/prgrms-web-devcourse/FE-CSstudy-withlia/blob/main/10%ED%9A%8C%EC%B0%A8/%ED%95%98%EC%8B%A0%EC%98%81-%20%EA%B0%80%EB%B9%84%EC%A7%80%20%EC%BB%AC%EB%A0%89%ED%8C%85.md) |
+
+# 9회차
+
+|  이름  |                                                                                                                주제                                                                                                                 |
+| :----: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| 나호석 |           [프로세스 vs 스레드](https://github.com/prgrms-web-devcourse/FE-CSstudy-withlia/blob/main/9%ED%9A%8C%EC%B0%A8/%EB%82%98%ED%98%B8%EC%84%9D-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4vs%EC%8A%A4%EB%A0%88%EB%93%9C.md)           |
+| 박유현 |                                             [DNS(2)](<https://github.com/prgrms-web-devcourse/FE-CSstudy-withlia/blob/main/9%ED%9A%8C%EC%B0%A8/%EB%B0%95%EC%9C%A0%ED%98%84-DNS(2).md>)                                              |
+| 염상권 |                                             [webpack](https://github.com/prgrms-web-devcourse/FE-CSstudy-withlia/blob/main/9%ED%9A%8C%EC%B0%A8/%EC%97%BC%EC%83%81%EA%B6%8C-webpack.md)                                              |
+| 하신영 | [자바스크립와 메모리](https://github.com/prgrms-web-devcourse/FE-CSstudy-withlia/blob/main/9%ED%9A%8C%EC%B0%A8/%ED%95%98%EC%8B%A0%EC%98%81-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%EC%99%80%20%EB%A9%94%EB%AA%A8%EB%A6%AC.md) |
+
 # 8회차
 
 |  이름  |                                                                                 주제                                                                                  |
